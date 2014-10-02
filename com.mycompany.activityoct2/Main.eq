@@ -31,7 +31,7 @@ public class Main : SEScene
 		display="BOUNCES = %d".printf().add(Primitive.for_integer(bounce)).to_string();
 		text=add_sprite_for_text("BOUNCING RECTANGLE","myfont");
 		text.move(0, get_scene_height()-text.get_height());
-			rsc.prepare_image("myimage","yep", get_scene_width()*0.1);
+			rsc.prepare_image("myimage","yep", get_scene_width()*0.1, get_scene_height()*0.1);
 				fg=add_sprite_for_image(SEImage.for_resource("myimage"));
 			
 		 fg.move(100,100);

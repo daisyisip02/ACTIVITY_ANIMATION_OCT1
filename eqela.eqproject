@@ -1,0 +1,9 @@
+
+#
+# Project configuration file for
+# ActivityOct2
+#
+
+projectname: ActivityOct2
+vendorid: com.mycompany
+mainmodule: com.mycompany.activityoct2
